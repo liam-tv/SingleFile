@@ -106,7 +106,7 @@ See https://addons.mozilla.org/firefox/addon/single-file/versions/
 
 - All browsers:
   - For security reasons, you cannot save pages hosted on
-    https://chrome.google.com, https://addons.mozilla.org and some other Mozilla
+    https://chrome.google.com, https://addons.mozilla.org, and some other Mozilla
     domains. When this happens, 🛇 is displayed on top of the SingleFile icon.
   - For
     [security reasons](https://developer.mozilla.org/en-US/docs/Web/HTML/CORS_enabled_image),
@@ -118,7 +118,7 @@ See https://addons.mozilla.org/firefox/addon/single-file/versions/
     limitation, disable the option "Misc > save pages in background".
   - The following characters are replaced with `_` in file names: `~`, `+`, `\`,
     `?`, `%`, `*`, `:`, `|`, `"`, `<`, `>`. This is done to maintain compatibility with
-    various OSs and file systems. If you don't need that level of compatibility and know
+    various OSs and file systems. If you do not need that level of compatibility and know
     what you are doing, you can change the list of forbidden characters in
     [Hidden options](https://github.com/gildas-lormeau/SingleFile/wiki/Hidden-options).
 - Chromium-based browsers:
@@ -147,7 +147,7 @@ See https://addons.mozilla.org/firefox/addon/single-file/versions/
     [here](https://github.com/gildas-lormeau/SingleFile/issues/7#issuecomment-618980153).
 - Waterfox Classic
   - User interface elements displayed in the page (progress bar, logs panel)
-    won't be displayed unless `dom.webcomponents.enabled` is enabled in
+    will not be displayed unless `dom.webcomponents.enabled` is enabled in
     `about:config`.
   - When opening pages saved with the option "Images > group duplicate images
     together" enabled, some duplicate images might not displayed. It is
@@ -168,7 +168,7 @@ Please follow these steps if you find an unknown issue:
 
 ## Command Line Interface (SingleFile CLI)
 
-You can save web pages to HTML from the command line interface. See here for
+You can save web pages as HTML files directly from the command line interface. See here for
 more info: https://github.com/gildas-lormeau/single-file-cli.
 
 ## Integration with user scripts
@@ -207,7 +207,7 @@ Footnotes:
   https://github.com/ArchiveBox/ArchiveBox
 - htmls-to-datasette - Tool to index HTML files into a Sqlite database:
   https://github.com/pjamar/htmls-to-datasette
-- linkding - Bookmark manager that you can host yourself. It's designed be to
+- linkding - Bookmark manager that you can host yourself. It is designed be to
   be minimal, fast, and easy to set up using Docker:
   https://github.com/sissbruecker/linkding
 - obsidian-html-plugin - Plugin for reading HTML pages in Obsidian:
